@@ -1,1 +1,53 @@
-This is the first page for voiceshen.github.io
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="compile : ">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>compile</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/voiceshen">View on GitHub</a>
+
+          <h1 id="project_title">compile</h1>
+          <h2 id="project_tagline"></h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a id="the-following-steps-for-how-to-build-u-boot-for-bananapi" class="anchor" href="#the-following-steps-for-how-to-build-u-boot-for-bananapi" aria-hidden="true"><span class="octicon octicon-link"></span></a>The following steps for how to build u-boot for BananaPi</h3>
+
+<pre><code>$ git clone https://github.com/LeMaker/u-boot-sunxi.git
+$ cd u-boot-sunxi
+$ export ARCH=arm
+$ export CROSS_COMPILE=arm-linux-gnueabihf-gcc
+$ make BananaPi_config
+$ make
+</code></pre>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
